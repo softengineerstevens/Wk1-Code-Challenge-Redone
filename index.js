@@ -5,23 +5,23 @@
 // //         A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 
-// function gradegenerator(marks){
-//     if (marks > 79 && marks <=100){
-//         return 'A'
-//     } else if (marks >=60 && marks <= 79){
-//         return 'B'
-//     }else if (marks >=49 && marks <=59 ){
-//         return 'C'
-//     }else if (marks >= 40 && marks < 49){
-//         return 'D'
-//     }else if (marks < 40){
-//         return 'E'
-//     }else {
-//         return 'Not valid marks'
-//     }
+function gradegenerator(marks){
+    if (marks > 79 && marks <=100){
+        return 'A'
+    } else if (marks >=60 && marks <= 79){
+        return 'B'
+    }else if (marks >=49 && marks <=59 ){
+        return 'C'
+    }else if (marks >= 40 && marks < 49){
+        return 'D'
+    }else if (marks < 40){
+        return 'E'
+    }else {
+        return 'Not valid marks'
+    }
 
-// }
-// console.log(gradegenerator(52));
+}
+console.log(gradegenerator(52));
 
 
 // // Challenge 2: Speed Detector (Toy Problem)
@@ -31,38 +31,38 @@
 // //    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 
-// function speedDetector(speed){
-//     if (speed < 70){
-//         return 'Ok'
-//     }else if (speed >70 && speed < 75){
-//         return 'points: 1'
-//     }else if (speed >=75 && speed < 80){
-//         return 'Points: 2'
-//     }else if (speed >=80 && speed < 85){
-//         return 'Points: 3'
-//     }else if (speed >=85 && speed < 90){
-//         return 'Points: 4'
-//     }else if (speed >=90 && speed < 95){
-//         return 'Points: 5'
-//     }else if (speed >=95 && speed < 100){
-//         return 'Points: 6'
-//     }else if (speed >=100 && speed < 105){
-//         return 'Points: 7'
-//     }else if (speed >=105 && speed < 110){
-//         return 'Points: 8'
-//     }else if (speed >=110 && speed < 115){
-//         return 'Points: 9'
-//     }else if (speed >=115 && speed < 120){
-//         return 'Points: 10'
-//     }else if (speed >=120 && speed < 125){
-//         return 'Points: 11'
-//     }else if (speed >=125 && speed < 130){
-//         return 'Points: 12'
-//     }else if (speed >= 130){
-//         return 'License suspended'
-//     }
-// }
-// console.log(speedDetector(200));// returns License suspended
+function speedDetector(speed){
+    if (speed < 70){
+        return 'Ok'
+    }else if (speed >70 && speed < 75){
+        return 'points: 1'
+    }else if (speed >=75 && speed < 80){
+        return 'Points: 2'
+    }else if (speed >=80 && speed < 85){
+        return 'Points: 3'
+    }else if (speed >=85 && speed < 90){
+        return 'Points: 4'
+    }else if (speed >=90 && speed < 95){
+        return 'Points: 5'
+    }else if (speed >=95 && speed < 100){
+        return 'Points: 6'
+    }else if (speed >=100 && speed < 105){
+        return 'Points: 7'
+    }else if (speed >=105 && speed < 110){
+        return 'Points: 8'
+    }else if (speed >=110 && speed < 115){
+        return 'Points: 9'
+    }else if (speed >=115 && speed < 120){
+        return 'Points: 10'
+    }else if (speed >=120 && speed < 125){
+        return 'Points: 11'
+    }else if (speed >=125 && speed < 130){
+        return 'Points: 12'
+    }else if (speed >= 130){
+        return 'License suspended'
+    }
+}
+console.log(speedDetector(200));// returns License suspended
 
 
 
